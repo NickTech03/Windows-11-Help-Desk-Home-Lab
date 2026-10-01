@@ -133,3 +133,15 @@ The VM received the IPv4 address **10.0.2.15** with a subnet mask of **255.255.2
 Reviewing these values helped me understand how to begin troubleshooting from the local system outward by first checking the computer's network configuration before testing the gateway, external connectivity, and DNS.
 
 ![IPConfig Network Configuration](03-IPConfig-Network-Configuration.png)
+
+### 4. Connectivity Testing
+
+After reviewing the VM's TCP/IP configuration, I tested network connectivity in stages using `ping`.
+
+I first pinged the default gateway at **10.0.2.2** to verify that the HELPDESK-PC virtual machine could communicate with the VirtualBox NAT gateway. The test returned four successful replies with **0% packet loss**, confirming that the VM could reach its gateway.
+
+I then pinged **8.8.8.8** to test connectivity beyond the local virtual network. This test also returned four successful replies with **0% packet loss**, confirming that the VM had external network connectivity.
+
+Testing connectivity in this order helped demonstrate a systematic troubleshooting approach: verify the local network configuration first, test the gateway next, and then test connectivity to an external IP address.
+
+![Ping Connectivity Testing](04-Ping-Connectivity-Testing.png)
