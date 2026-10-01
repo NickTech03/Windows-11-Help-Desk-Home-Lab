@@ -155,3 +155,15 @@ The lookup successfully returned multiple IP addresses for **google.com**, confi
 This test helped demonstrate an important distinction in network troubleshooting. A computer may have working network connectivity but still be unable to access websites by name if DNS is not functioning correctly. By testing external IP connectivity first and DNS resolution afterward, I could isolate whether a connectivity problem was related to the network itself or to name resolution.
 
 ![DNS Name Resolution](05-DNS-Name-Resolution.png)
+
+### 6. Manual DNS Configuration
+
+To practice making a controlled network configuration change, I manually configured the HELPDESK-PC virtual machine to use Google's public DNS servers.
+
+I set the preferred DNS server to **8.8.8.8** and the alternate DNS server to **8.8.4.4** while leaving the VM's IP address configuration assigned automatically through DHCP.
+
+I then used `ipconfig /all` to verify the configuration. The output confirmed that the VM was using **8.8.8.8** and **8.8.4.4** as its DNS servers while retaining its existing IPv4 address and default gateway.
+
+This exercise helped me understand that DNS settings can be changed independently of the computer's IP address configuration and reinforced the importance of verifying a configuration change after applying it.
+
+![Manual DNS Configuration](06-Manual-DNS-Configuration.png)
