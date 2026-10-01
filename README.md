@@ -203,3 +203,15 @@ On the General tab, Windows reported **"This device is working properly."** This
 Checking Device Manager provided another troubleshooting layer alongside the network tests I performed earlier. If a computer is experiencing a connectivity problem, verifying that the network adapter is recognized and checking its reported status can help determine whether further investigation should focus on the device or elsewhere in the network configuration.
 
 ![Device Manager - Network Adapter Status](09-Device-Manager-Network-Adapter.png)
+
+## 10. Disk Management & Storage
+
+I used Windows Disk Management to inspect the storage configuration of the HELPDESK-PC virtual machine and practice reviewing disk and partition information that can be useful during troubleshooting.
+
+Disk Management showed **Disk 0** as a **79.98 GB Basic disk** with a status of **Online**. The main **C:** volume was formatted as **NTFS**, had a capacity of approximately **78.92 GB**, and was reported as **Healthy**. I also reviewed the EFI System Partition and Recovery Partition that support the Windows installation.
+
+The C: volume had approximately **42.59 GB of free space**, or **54%** of its total capacity. The volume was also identified as **BitLocker Encrypted**. I observed these details without modifying, formatting, or deleting any partitions.
+
+This exercise demonstrated how Disk Management can be used to verify that storage is recognized by Windows, review disk and volume health, inspect partition layout, and check available capacity before deciding whether additional troubleshooting is necessary.
+
+![Disk Management Storage Overview](10-Disk-Management-Storage-Overview.png)
