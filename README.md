@@ -204,7 +204,7 @@ Checking Device Manager provided another troubleshooting layer alongside the net
 
 ![Device Manager - Network Adapter Status](09-Device-Manager-Network-Adapter.png)
 
-## 10. Disk Management & Storage
+### 10. Disk Management & Storage
 
 I used Windows Disk Management to inspect the storage configuration of the HELPDESK-PC virtual machine and practice reviewing disk and partition information that can be useful during troubleshooting.
 
@@ -216,7 +216,7 @@ This exercise demonstrated how Disk Management can be used to verify that storag
 
 ![Disk Management Storage Overview](10-Disk-Management-Storage-Overview.png)
 
-## 11. Windows Update & Update History
+### 11. Windows Update & Update History
 
 I used Windows Update to review the update history of the HELPDESK-PC virtual machine and practice checking whether Windows updates had been installed successfully.
 
@@ -228,7 +228,7 @@ This exercise helped me understand the importance of reviewing update status and
 
 ![Windows Update History](11-Windows-Update-History.png)
 
-## 12. System Information Overview
+### 12. System Information Overview
 
 I used Windows System Information to review the hardware and operating system details of the HELPDESK-PC virtual machine. This provided a centralized view of important system information that could be useful when documenting a computer or beginning a troubleshooting process.
 
@@ -238,7 +238,7 @@ Reviewing System Information demonstrated how a help desk technician can quickly
 
 ![System Information Overview](12-System-Information-Overview.png)
 
-## 13. Windows Security Overview
+### 13. Windows Security Overview
 
 I used Windows Security to review the security status of the HELPDESK-PC virtual machine and become familiar with the built-in security areas available in Windows 11.
 
@@ -248,7 +248,7 @@ Reviewing Windows Security demonstrated how a help desk technician can quickly c
 
 ![Windows Security Overview](13-Windows-Security-Overview.png)
 
-## 14. PowerShell Service Verification
+### 14. PowerShell Service Verification
 
 I used Windows PowerShell to practice checking the status of a Windows service from the command line. This provided another way to verify service information without relying only on the graphical Services console.
 
@@ -258,7 +258,7 @@ This exercise demonstrated how PowerShell can be used to quickly retrieve servic
 
 ![PowerShell Service Verification](14-PowerShell-Service-Verification.png)
 
-## 15. PowerShell Network Configuration
+### 15. PowerShell Network Configuration
 
 I used Windows PowerShell to inspect the network configuration of the HELPDESK-PC virtual machine from the command line. This provided another way to retrieve networking information alongside the Command Prompt tools I used earlier in the lab.
 
@@ -268,7 +268,7 @@ This exercise demonstrated how PowerShell can be used during network troubleshoo
 
 ![PowerShell Network Configuration](15-PowerShell-Network-Configuration.png)
 
-## 16. PowerShell Network Connectivity Test
+### 16. PowerShell Network Connectivity Test
 
 I used Windows PowerShell to test network connectivity from the HELPDESK-PC virtual machine using the `Test-NetConnection` command. This provided a PowerShell-based method for verifying whether the system could communicate with a remote IP address.
 
@@ -280,7 +280,7 @@ This exercise demonstrated how `Test-NetConnection` can be used to quickly verif
 
 ![PowerShell Network Connectivity Test](16-PowerShell-Network-Connectivity-Test.png)
 
-## 17. PowerShell System Information
+### 17. PowerShell System Information
 
 I used Windows PowerShell to practice retrieving basic operating system and computer information from the command line. This provided another method for gathering system details without relying on graphical tools such as System Information.
 
@@ -292,7 +292,7 @@ This exercise demonstrated how PowerShell can be used to quickly collect specifi
 
 ![PowerShell System Information](17-PowerShell-System-Information.png)
 
-## 18. PowerShell Local User Accounts
+### 18. PowerShell Local User Accounts
 
 I used Windows PowerShell to inspect local user accounts and account-related information on the HELPDESK-PC virtual machine. This provided a command-line method for reviewing users that complemented the graphical Local Users and Groups tools I used earlier in the lab.
 
@@ -302,7 +302,7 @@ This exercise connected the user-management portion of the lab with PowerShell a
 
 ![PowerShell Local User Accounts](18-PowerShell-Local-User-Accounts.png)
 
-## 19. Final VirtualBox Snapshot
+### 19. Final VirtualBox Snapshot
 
 After completing the help desk exercises and verifying the final configuration of the HELPDESK-PC virtual machine, I created a final VirtualBox snapshot named **Help Desk Lab - Completed**.
 
