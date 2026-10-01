@@ -247,3 +247,13 @@ The **Security at a glance** page showed the status of several protection areas,
 Reviewing Windows Security demonstrated how a help desk technician can quickly check the overall security status of a Windows computer and identify areas that may require attention. This can be a useful starting point when investigating security warnings, firewall issues, antivirus concerns, or general system-health problems.
 
 ![Windows Security Overview](13-Windows-Security-Overview.png)
+
+## 14. PowerShell Service Verification
+
+I used Windows PowerShell to practice checking the status of a Windows service from the command line. This provided another way to verify service information without relying only on the graphical Services console.
+
+Using PowerShell, I checked the **Print Spooler** service and verified its current status. This connected directly with my earlier Windows Services troubleshooting exercise, where I stopped and restarted the Print Spooler through the Services console.
+
+This exercise demonstrated how PowerShell can be used to quickly retrieve service information during troubleshooting. Being comfortable with both graphical tools and command-line tools provides different ways to investigate and verify the state of Windows services.
+
+![PowerShell Service Verification](14-PowerShell-Service-Verification.png)
