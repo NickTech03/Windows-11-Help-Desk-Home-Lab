@@ -227,3 +227,13 @@ This also connected with my earlier Event Viewer investigation, where I identifi
 This exercise helped me understand the importance of reviewing update status and history as part of Windows maintenance and troubleshooting rather than assuming that all updates have installed successfully.
 
 ![Windows Update History](11-Windows-Update-History.png)
+
+## 12. System Information Overview
+
+I used Windows System Information to review the hardware and operating system details of the HELPDESK-PC virtual machine. This provided a centralized view of important system information that could be useful when documenting a computer or beginning a troubleshooting process.
+
+The System Summary displayed information such as the computer name, Windows version and build, system manufacturer and model, processor, installed memory, BIOS information, and system type. Because this environment was running as a virtual machine, some of the hardware information also reflected the VirtualBox environment.
+
+Reviewing System Information demonstrated how a help desk technician can quickly gather important details about a Windows computer before troubleshooting or making configuration changes. Having accurate system information can also help when documenting an issue or determining whether hardware, operating system, or software requirements are relevant.
+
+![System Information Overview](12-System-Information-Overview.png)
