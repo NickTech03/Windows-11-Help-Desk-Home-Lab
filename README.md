@@ -123,3 +123,13 @@ I created separate administrator and standard-user accounts to practice user man
 Separating these account types helped demonstrate why users should only receive the permissions necessary for their role, reducing the risk of unauthorized or accidental system changes.
 
 ![Local User Accounts](02-Local-User-Accounts.png)
+
+### 3. Network Configuration & TCP/IP
+
+I used `ipconfig` to examine the TCP/IP configuration of the **HELPDESK-PC** virtual machine. The command displayed the VM's IPv4 address, subnet mask, and default gateway, which are important starting points when troubleshooting network connectivity.
+
+The VM received the IPv4 address **10.0.2.15** with a subnet mask of **255.255.255.0** and used **10.0.2.2** as its default gateway. Because the VM was configured with VirtualBox NAT, VirtualBox provided the virtual network that allowed the VM to communicate outside its local environment.
+
+Reviewing these values helped me understand how to begin troubleshooting from the local system outward by first checking the computer's network configuration before testing the gateway, external connectivity, and DNS.
+
+![IPConfig Network Configuration](03-IPConfig-Network-Configuration.png)
