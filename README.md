@@ -279,3 +279,15 @@ The output also displayed the source address `10.0.2.15` and a round-trip time o
 This exercise demonstrated how `Test-NetConnection` can be used to quickly verify network connectivity and gather useful information when troubleshooting a Windows computer.
 
 ![PowerShell Network Connectivity Test](16-PowerShell-Network-Connectivity-Test.png)
+
+## 17. PowerShell System Information
+
+I used Windows PowerShell to practice retrieving basic operating system and computer information from the command line. This provided another method for gathering system details without relying on graphical tools such as System Information.
+
+I ran `Get-ComputerInfo | Select-Object WindowsProductName, WindowsVersion, OsBuildNumber, CsName` to display a focused set of system properties. The output identified the computer name as `HELPDESK-PC`, Windows version `2009`, and OS build number `26200`.
+
+The `WindowsProductName` field returned `Windows 10 Pro`. Although the HELPDESK-PC virtual machine was running Windows 11 Pro, I documented the PowerShell output as it was reported rather than changing the result.
+
+This exercise demonstrated how PowerShell can be used to quickly collect specific system information that may be useful when documenting a computer, verifying its configuration, or beginning a troubleshooting process.
+
+![PowerShell System Information](17-PowerShell-System-Information.png)
