@@ -167,3 +167,15 @@ I then used `ipconfig /all` to verify the configuration. The output confirmed th
 This exercise helped me understand that DNS settings can be changed independently of the computer's IP address configuration and reinforced the importance of verifying a configuration change after applying it.
 
 ![Manual DNS Configuration](06-Manual-DNS-Configuration.png)
+
+### 7. Windows Event Viewer Troubleshooting
+
+I used Windows Event Viewer to practice identifying and investigating system errors that could help diagnose a user or system issue.
+
+In the **System** log, I filtered the events to focus on errors and identified a **WindowsUpdateClient** event with **Event ID 20**. The event showed that Windows had failed to install an update and provided the error code **0x80073D02**.
+
+Rather than treating the presence of an error as the diagnosis itself, I reviewed the event source, Event ID, severity, timestamp, and message to gather information about what had occurred. This demonstrated how Event Viewer can provide useful evidence when investigating Windows problems.
+
+This exercise reinforced the importance of using system logs as part of a structured troubleshooting process: identify the reported problem, review relevant events, gather specific error information, and use that evidence to determine the appropriate next troubleshooting steps.
+
+![Windows Event Viewer - Windows Update Error](07-Event-Viewer-Windows-Update-Error.png)
