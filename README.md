@@ -59,7 +59,7 @@ This project includes detailed documentation of the lab build, configuration, te
 
 The documentation covers the Windows 11 virtual machine setup, user account configuration, networking tests, Windows administrative tools, security checks, PowerShell exercises, troubleshooting scenarios, and project verification.
 
-A complete step-by-step build guide with screenshots will be included in this repository.
+This README provides a step-by-step walkthrough of the lab, supported by screenshots documenting the configuration, testing, troubleshooting, and final completed environment.
 
 ## Key Project Activities
 
