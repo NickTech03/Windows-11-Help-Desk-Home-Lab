@@ -291,3 +291,13 @@ The `WindowsProductName` field returned `Windows 10 Pro`. Although the HELPDESK-
 This exercise demonstrated how PowerShell can be used to quickly collect specific system information that may be useful when documenting a computer, verifying its configuration, or beginning a troubleshooting process.
 
 ![PowerShell System Information](17-PowerShell-System-Information.png)
+
+## 18. PowerShell Local User Accounts
+
+I used Windows PowerShell to inspect local user accounts and account-related information on the HELPDESK-PC virtual machine. This provided a command-line method for reviewing users that complemented the graphical Local Users and Groups tools I used earlier in the lab.
+
+I used `whoami` to identify the currently signed-in account and `whoami /groups` to review its security group memberships. I also used `Get-LocalUser` to display the local user accounts configured on the system, including the **ITAdmin** administrator account and the **schen** standard-user account created earlier in the project.
+
+This exercise connected the user-management portion of the lab with PowerShell administration and demonstrated how command-line tools can be used to quickly verify account and group information during troubleshooting or system administration.
+
+![PowerShell Local User Accounts](18-PowerShell-Local-User-Accounts.png)
