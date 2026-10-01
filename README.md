@@ -145,3 +145,13 @@ I then pinged **8.8.8.8** to test connectivity beyond the local virtual network.
 Testing connectivity in this order helped demonstrate a systematic troubleshooting approach: verify the local network configuration first, test the gateway next, and then test connectivity to an external IP address.
 
 ![Ping Connectivity Testing](04-Ping-Connectivity-Testing.png)
+
+### 5. DNS Name Resolution
+
+After confirming that the VM could reach an external IP address, I tested DNS name resolution using `nslookup google.com`.
+
+The lookup successfully returned multiple IP addresses for **google.com**, confirming that the VM could communicate with a DNS server and translate a domain name into IP addresses.
+
+This test helped demonstrate an important distinction in network troubleshooting. A computer may have working network connectivity but still be unable to access websites by name if DNS is not functioning correctly. By testing external IP connectivity first and DNS resolution afterward, I could isolate whether a connectivity problem was related to the network itself or to name resolution.
+
+![DNS Name Resolution](05-DNS-Name-Resolution.png)
