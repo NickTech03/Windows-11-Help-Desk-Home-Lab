@@ -191,3 +191,15 @@ After observing the stopped state, I restarted the Print Spooler and verified th
 This exercise helped me understand that service troubleshooting involves more than simply restarting a service. It is important to identify the correct service, review its current status and startup configuration, make a controlled change, and verify that the service returns to the expected state.
 
 ![Windows Services - Print Spooler Troubleshooting](08-Print-Spooler-Service-Troubleshooting.png)
+
+### 9. Device Manager & Hardware Status
+
+I used Windows Device Manager to inspect hardware recognized by the HELPDESK-PC virtual machine and practice checking the status of a device during troubleshooting.
+
+I expanded **Network adapters** and opened the properties of the **Intel(R) PRO/1000 MT Desktop Adapter**, which was the network adapter presented to the Windows VM by VirtualBox.
+
+On the General tab, Windows reported **"This device is working properly."** This indicated that Windows recognized the adapter and was not reporting a device-level problem at the time of inspection.
+
+Checking Device Manager provided another troubleshooting layer alongside the network tests I performed earlier. If a computer is experiencing a connectivity problem, verifying that the network adapter is recognized and checking its reported status can help determine whether further investigation should focus on the device or elsewhere in the network configuration.
+
+![Device Manager - Network Adapter Status](09-Device-Manager-Network-Adapter.png)
