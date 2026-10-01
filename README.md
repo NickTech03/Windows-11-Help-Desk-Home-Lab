@@ -237,3 +237,13 @@ The System Summary displayed information such as the computer name, Windows vers
 Reviewing System Information demonstrated how a help desk technician can quickly gather important details about a Windows computer before troubleshooting or making configuration changes. Having accurate system information can also help when documenting an issue or determining whether hardware, operating system, or software requirements are relevant.
 
 ![System Information Overview](12-System-Information-Overview.png)
+
+## 13. Windows Security Overview
+
+I used Windows Security to review the security status of the HELPDESK-PC virtual machine and become familiar with the built-in security areas available in Windows 11.
+
+The **Security at a glance** page showed the status of several protection areas, including **Virus & threat protection, Account protection, Firewall & network protection, App & browser control,** and **Device performance & health**. At the time of the review, these areas displayed **No action needed**.
+
+Reviewing Windows Security demonstrated how a help desk technician can quickly check the overall security status of a Windows computer and identify areas that may require attention. This can be a useful starting point when investigating security warnings, firewall issues, antivirus concerns, or general system-health problems.
+
+![Windows Security Overview](13-Windows-Security-Overview.png)
