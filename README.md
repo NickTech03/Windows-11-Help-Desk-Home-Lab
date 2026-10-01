@@ -215,3 +215,15 @@ The C: volume had approximately **42.59 GB of free space**, or **54%** of its to
 This exercise demonstrated how Disk Management can be used to verify that storage is recognized by Windows, review disk and volume health, inspect partition layout, and check available capacity before deciding whether additional troubleshooting is necessary.
 
 ![Disk Management Storage Overview](10-Disk-Management-Storage-Overview.png)
+
+## 11. Windows Update & Update History
+
+I used Windows Update to review the update history of the HELPDESK-PC virtual machine and practice checking whether Windows updates had been installed successfully.
+
+The Update History page provided a record of updates installed on the system, including quality updates, driver updates, and other Windows components. Reviewing this information can help determine whether a recent update was installed and provide useful context when troubleshooting system problems.
+
+This also connected with my earlier Event Viewer investigation, where I identified a WindowsUpdateClient error related to a failed update installation. Using both Windows Update history and Event Viewer demonstrated how information from multiple Windows tools can be used together when investigating an update-related issue.
+
+This exercise helped me understand the importance of reviewing update status and history as part of Windows maintenance and troubleshooting rather than assuming that all updates have installed successfully.
+
+![Windows Update History](11-Windows-Update-History.png)
