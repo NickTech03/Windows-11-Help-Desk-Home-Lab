@@ -267,3 +267,15 @@ Using the Get-NetIPConfiguration command, I reviewed the VM's Ethernet adapter a
 This exercise demonstrated how PowerShell can be used during network troubleshooting to quickly inspect a computer's current network configuration. It also reinforced the networking concepts I practiced earlier in the project while giving me additional experience working from the command line.
 
 ![PowerShell Network Configuration](15-PowerShell-Network-Configuration.png)
+
+## 16. PowerShell Network Connectivity Test
+
+I used Windows PowerShell to test network connectivity from the HELPDESK-PC virtual machine using the `Test-NetConnection` command. This provided a PowerShell-based method for verifying whether the system could communicate with a remote IP address.
+
+I ran `Test-NetConnection 8.8.8.8`, which tested connectivity to the remote address `8.8.8.8` through the VM's Ethernet interface. The command returned `PingSucceeded : True`, confirming that the VM was able to reach the remote address successfully.
+
+The output also displayed the source address `10.0.2.15` and a round-trip time of approximately 14 ms. This reinforced the connectivity testing I performed earlier in Command Prompt while giving me experience using PowerShell as another troubleshooting tool.
+
+This exercise demonstrated how `Test-NetConnection` can be used to quickly verify network connectivity and gather useful information when troubleshooting a Windows computer.
+
+![PowerShell Network Connectivity Test](16-PowerShell-Network-Connectivity-Test.png)
