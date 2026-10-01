@@ -257,3 +257,13 @@ Using PowerShell, I checked the **Print Spooler** service and verified its curre
 This exercise demonstrated how PowerShell can be used to quickly retrieve service information during troubleshooting. Being comfortable with both graphical tools and command-line tools provides different ways to investigate and verify the state of Windows services.
 
 ![PowerShell Service Verification](14-PowerShell-Service-Verification.png)
+
+## 15. PowerShell Network Configuration
+
+I used Windows PowerShell to inspect the network configuration of the HELPDESK-PC virtual machine from the command line. This provided another way to retrieve networking information alongside the Command Prompt tools I used earlier in the lab.
+
+Using the Get-NetIPConfiguration command, I reviewed the VM's Ethernet adapter and verified its IPv4 address, default gateway, and DNS information.
+
+This exercise demonstrated how PowerShell can be used during network troubleshooting to quickly inspect a computer's current network configuration. It also reinforced the networking concepts I practiced earlier in the project while giving me additional experience working from the command line.
+
+![PowerShell Network Configuration](15-PowerShell-Network-Configuration.png)
