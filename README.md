@@ -115,3 +115,11 @@ Most importantly, I learned that effective troubleshooting is not about memorizi
 I created a Windows 11 Pro virtual machine named **HELPDESK-PC** in Oracle VirtualBox to provide an isolated environment for practicing Help Desk administration and troubleshooting. The VM was configured with approximately 6 GB of RAM, an 80 GB virtual disk, and a NAT network adapter.
 
 ![VirtualBox HELPDESK-PC Lab Environment](01-VirtualBox-Lab-Environment.png)
+
+### 2. Local User Account Management
+
+I created separate administrator and standard-user accounts to practice user management and the principle of least privilege. The **ITAdmin** account was used for administrative tasks, while **Sarah Chen (schen)** was configured as a standard user for everyday use.
+
+Separating these account types helped demonstrate why users should only receive the permissions necessary for their role, reducing the risk of unauthorized or accidental system changes.
+
+![Local User Accounts](02-Local-User-Accounts.png)
