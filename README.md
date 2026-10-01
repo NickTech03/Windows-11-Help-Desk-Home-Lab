@@ -179,3 +179,15 @@ Rather than treating the presence of an error as the diagnosis itself, I reviewe
 This exercise reinforced the importance of using system logs as part of a structured troubleshooting process: identify the reported problem, review relevant events, gather specific error information, and use that evidence to determine the appropriate next troubleshooting steps.
 
 ![Windows Event Viewer - Windows Update Error](07-Event-Viewer-Windows-Update-Error.png)
+
+### 8. Windows Services & Print Spooler Troubleshooting
+
+I used the Windows Services console to practice troubleshooting a common Windows service issue using the **Print Spooler** service.
+
+I first reviewed the Print Spooler and confirmed that its service name was **Spooler**, its startup type was set to **Automatic**, and the service was running. I then intentionally stopped the service to simulate a situation where printing functionality could be affected.
+
+After observing the stopped state, I restarted the Print Spooler and verified that its status returned to **Running**. This demonstrated how restarting a Windows service can be used as a controlled troubleshooting step when investigating problems associated with that service.
+
+This exercise helped me understand that service troubleshooting involves more than simply restarting a service. It is important to identify the correct service, review its current status and startup configuration, make a controlled change, and verify that the service returns to the expected state.
+
+![Windows Services - Print Spooler Troubleshooting](08-Print-Spooler-Service-Troubleshooting.png)
