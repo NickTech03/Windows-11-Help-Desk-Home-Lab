@@ -107,3 +107,11 @@ Some of my main takeaways were:
 - Virtual machine snapshots provide a useful recovery point when testing configuration changes in a lab environment.
 
 Most importantly, I learned that effective troubleshooting is not about memorizing individual fixes. It is about gathering information, narrowing down possible causes, making controlled changes, and verifying the result.
+
+## Project Walkthrough
+
+### 1. VirtualBox Lab Environment
+
+I created a Windows 11 Pro virtual machine named **HELPDESK-PC** in Oracle VirtualBox to provide an isolated environment for practicing Help Desk administration and troubleshooting. The VM was configured with approximately 6 GB of RAM, an 80 GB virtual disk, and a NAT network adapter.
+
+![VirtualBox HELPDESK-PC Lab Environment](01-VirtualBox-Lab-Environment.png)
