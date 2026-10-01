@@ -301,3 +301,15 @@ I used `whoami` to identify the currently signed-in account and `whoami /groups`
 This exercise connected the user-management portion of the lab with PowerShell administration and demonstrated how command-line tools can be used to quickly verify account and group information during troubleshooting or system administration.
 
 ![PowerShell Local User Accounts](18-PowerShell-Local-User-Accounts.png)
+
+## 19. Final VirtualBox Snapshot
+
+After completing the help desk exercises and verifying the final configuration of the HELPDESK-PC virtual machine, I created a final VirtualBox snapshot named **Help Desk Lab - Completed**.
+
+The snapshot structure preserved multiple stages of the lab, including the original **Baseline - Clean Windows 11** state, the **Help Desk Lab - Users and Network Complete** checkpoint, and the final **Help Desk Lab - Completed** state.
+
+Using snapshots throughout the project provided restore points that could be used to return the virtual machine to an earlier known state if a configuration change or troubleshooting exercise caused an issue. This allowed me to make controlled changes while maintaining a recoverable lab environment.
+
+Creating the final snapshot preserved the completed state of the project and reinforced the value of maintaining known-good restore points when working with virtual machines in a test environment.
+
+![VirtualBox completed lab snapshot](19-VirtualBox-Completed-Snapshot.png)
